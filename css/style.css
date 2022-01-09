@@ -1,0 +1,42 @@
+/* 初始化 */
+*{margin: 0; padding: 0; font: bold 20px "宋体";}
+/* 定义a和li标签的样式 */
+a,li{text-decoration: none; list-style: none;}
+/* 去浏览器滚动条 */
+::-webkit-scrollbar {display: none;}
+/* 定义导航样式 */
+.nav{width: 100%; height: 100px; background: #ffffff; }
+.nav ul{display: flex; justify-content: center; text-align: center;}
+.nav li{width: 250px; height: 100px; list-style: none; line-height: 100px; color: #000; transition: .6s;}
+.nav a{color: #000;}
+.nav li:hover{background: #000000; color: rgb(255, 255, 255);}
+.nav li:hover a{color: rgb(255, 255, 255);}
+.nav .no a{display: block; width: 100%; height: 100%; line-height: 100px;}
+input{display: none;}
+/* 二级导航 */
+.nav ul li div {overflow: hidden; position: absolute; width: 250px; height: 0; display: block; transition: .3s;}
+.nav ul li:hover div {height: 50px;}
+.nav ul li div ul li {width: 84px; height: 50px; line-height: 50px; background: #fff;}
+/* 定义banner */
+.banner{width: 100%; height: 500px; overflow: hidden;}
+/* 内容 */
+.xuyan{width: 100%;}
+.bt{width: 35%; height: 50px; text-align: center; margin: 0 auto;}
+.zhengwen{width: 50%;  margin: 0 auto; text-align: center;;}
+.bt h2{margin-top: 20px; font-size: 30px;}
+.xuyan p{font-weight: 700; line-height: 50px;}
+
+
+/* 响应 */
+.no{display: block;}
+.yinc{display: none;}
+.yinc{justify-content: flex-start;}
+
+
+@media screen and (max-width: 1000px){
+    /* input{display: none;}
+    .yinc{display: block;}
+    .no{display: none;}
+    .nav ul{justify-content: flex-end;} */
+    
+}

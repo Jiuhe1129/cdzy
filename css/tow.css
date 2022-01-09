@@ -1,0 +1,36 @@
+/* 同学名单内容 */
+.tongxue{width: 80%; height: 80%; margin: 0 auto; margin-top: 100px;}
+.tongxue ul{display: flex; flex-wrap: wrap; text-align: center;}
+.tongxue li{margin: 10px; width: 235px; height: 80px; line-height: 80px; font-size: 33px; transition: .6s;}
+.tongxue li:hover{background: #000000; color: rgb(255, 255, 255);}
+.tongxue img{width: 30px; position: relative; top: 2px; right: 10px;}
+
+
+/* 表情包内容 */
+.bqb{width: 90%; margin: 0 auto; display: flex; justify-content: center; margin-top: 50px;}
+.bqb ul{display: flex; flex-wrap: wrap;}
+.bqb ul li{width: 250px; height: 250px; margin: 0 auto; margin-bottom: 50px; text-align: center; overflow: hidden; background-size: 100%; transition: .6s;}
+.bqb ul li:hover{background-size: 110%;}
+.a1{background: url(../img/bqb/1.jpg) no-repeat center;}
+.a2{background: url(../img/bqb/2.jpg) no-repeat center;}
+.a3{background: url(../img/bqb/3.jpg) no-repeat center;}
+.a4{background: url(../img/bqb/4.jpg) no-repeat center;}
+.a5{background: url(../img/bqb/5.jpg) no-repeat center;}
+
+.b1{background: url(../img/bqb/6.jpg) no-repeat center;}
+.b2{background: url(../img/bqb/7.jpg) no-repeat center;}
+.b3{background: url(../img/bqb/8.jpg) no-repeat center;}
+.b4{background: url(../img/bqb/9.jpg) no-repeat center;}
+.b5{background: url(../img/bqb/10.jpg) no-repeat center;}
+
+.c1{background: url(../img/bqb/11.jpg) no-repeat center;}
+.c2{background: url(../img/bqb/12.jpg) no-repeat center;}
+.c3{background: url(../img/bqb/13.jpg) no-repeat center;}
+.c4{background: url(../img/bqb/14.jpg) no-repeat center;}
+.c5{background: url(../img/bqb/15.jpg) no-repeat center;}
+
+.d1{background: url(../img/bqb/16.jpg) no-repeat center;}
+.d2{background: url(../img/bqb/17.jpg) no-repeat center;}
+.d3{background: url(../img/bqb/18.jpg) no-repeat center;}
+.d4{background: url(../img/bqb/19.jpg) no-repeat center;}
+.d5{background: url(../img/bqb/20.jpg) no-repeat center;}
