@@ -27,7 +27,7 @@ input{display: none;}
 .zhengwen p{margin: 30px 0px; line-height: 35px;}
 
 /* 个人网页链接 */
-.jiuhe1129{position: fixed; left: 0; bottom: 0;}
+.jiuhe1129{position: fixed; border: none; left: 0; bottom: 0;}
 
 /* 响应 */
 .no{display: block;}
