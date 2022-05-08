@@ -12,6 +12,7 @@
 .bqb ul{display: flex; flex-wrap: wrap;}
 .bqb ul li{width: 250px; height: 250px; margin: 0 auto; margin-bottom: 50px; text-align: center; overflow: hidden; background-size: 100%; transition: .6s;}
 .bqb ul li:hover{background-size: 110%;}
+
 .a1{background: url(../img/bqb/1.jpg) no-repeat center;}
 .a2{background: url(../img/bqb/2.jpg) no-repeat center;}
 .a3{background: url(../img/bqb/3.jpg) no-repeat center;}
