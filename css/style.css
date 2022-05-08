@@ -22,10 +22,9 @@ input{display: none;}
 /* 内容 */
 .xuyan{width: 100%;}
 .bt{text-align: center; margin: 0 auto;}
-.zhengwen{width: 80%;  margin: 0 auto; text-align: center;;}
-.zhengwen p{margin-top: 20px;}
+.zhengwen{width: 80%;  margin: 0 auto;}
+.zhengwen p{margin-top: 30px; line-height: 35px;}
 .bt h2{margin: 10px; font-size: 30px;}
-.xuyan p{font-weight: 700; line-height: 50px;}
 
 
 /* 个人网页链接 */
