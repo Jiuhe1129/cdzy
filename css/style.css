@@ -23,6 +23,7 @@ input{display: none;}
 .xuyan{width: 100%;}
 .bt{text-align: center; margin: 0 auto;}
 .zhengwen{width: 80%;  margin: 0 auto; text-align: center;;}
+.zhengwen p{margin-top: 20px;}
 .bt h2{margin: 10px; font-size: 30px;}
 .xuyan p{font-weight: 700; line-height: 50px;}
 
