@@ -1,7 +1,7 @@
 /* 同学名单内容 */
 .tongxue{width: 80%; height: 80%; margin: 0 auto; margin-top: 100px;}
 .tongxue ul{display: flex; flex-wrap: wrap; text-align: center;}
-.tongxue li{margin: 10px; width: 235px; height: 80px; line-height: 80px; font-size: 33px; transition: .6s;}
+.tongxue li{margin: 10px auto; width: 235px; height: 80px; line-height: 80px; font-size: 33px; transition: .6s;}
 .tongxue li:hover{background: #000000; color: rgb(255, 255, 255);}
 .tongxue img{width: 30px; position: relative; top: 2px; right: 10px;}
 .tongxue .xx{text-decoration: line-through;}
