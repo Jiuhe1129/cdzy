@@ -4,6 +4,7 @@
 .tongxue li{margin: 10px; width: 235px; height: 80px; line-height: 80px; font-size: 33px; transition: .6s;}
 .tongxue li:hover{background: #000000; color: rgb(255, 255, 255);}
 .tongxue img{width: 30px; position: relative; top: 2px; right: 10px;}
+.tongxue .xx{text-decoration: line-through;}
 
 
 /* 表情包内容 */
